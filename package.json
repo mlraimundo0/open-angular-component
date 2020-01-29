@@ -1,7 +1,7 @@
 {
 	"name": "openangularcomponent",
 	"displayName": "Open Angular Component",
-	"description": "Open Angular Component",
+	"description": "Easy way to open and find Angular components",
 	"version": "0.0.2",
 	"publisher": "matheuslandor",
 	"engines": {

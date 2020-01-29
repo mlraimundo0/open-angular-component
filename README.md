@@ -1,0 +1,1 @@
+Easy way to open and find Angular components
