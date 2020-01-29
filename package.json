@@ -2,7 +2,7 @@
 	"name": "openangularcomponent",
 	"displayName": "Open Angular Component",
 	"description": "Easy way to open and find Angular components",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "matheuslandor",
 	"engines": {
 		"vscode": "^1.41.0"
