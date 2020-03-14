@@ -43,7 +43,8 @@ class MyProvider implements vscode.DefinitionProvider {
 				}
 			} else if (files[index].includes('component.ts')) {
 				const content = await readfile(dirname + '/' + files[index], 'utf-8');
-				if (content.includes("selector: '" + searchTerm + "'")) {
+				if (content.includes("selector: '" + searchTerm + "'") || 
+				content.includes('selector: "' + searchTerm + '"') ) {
 					targetFile = `${dirname}/${files[index]}`;
 				}
 			}
