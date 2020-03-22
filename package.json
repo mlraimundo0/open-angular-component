@@ -2,8 +2,17 @@
 	"name": "openangularcomponent",
 	"displayName": "Open Angular Component",
 	"description": "Easy way to open and find Angular components",
-	"version": "0.0.3",
+	"version": "0.0.10",
 	"publisher": "matheuslandor",
+	"icon": "images/angular.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mlraimundo0/open-angular-component.git"
+	},
+	"galleryBanner": {
+		"color": "#C80000",
+		"theme": "dark"
+	},
 	"engines": {
 		"vscode": "^1.41.0"
 	},
